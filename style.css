@@ -1,0 +1,131 @@
+/* Header and Navigation*/
+h1 {
+  font-size: 50px;
+  line-height: 140px;
+  font-family: Jost;
+  text-align: center;
+}
+
+header {
+  height: 125px;
+  color: #9a7ccc
+}
+
+.flex-container1 {
+  padding: 10px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  font-family: Nunito;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+header img {
+  width: 100px;
+  position: absolute;
+  right: 32.5px;
+  top: 32.5px;
+}
+
+/* About */
+
+body {
+  width: 640px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: Lexend;
+  color: #6bafd6
+}
+
+p {
+  line-height: 3;
+  font-family: Nunito;
+}
+
+.skyimage {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+  width: 320px;
+  height: 480px;
+}
+
+/* Gallery */
+
+.gallery {
+  text-align: center;
+  margin: 50px 150px 50px;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+  margin: 0 0 20px 0
+}
+
+/* Contact */
+
+.flex-container2 {
+  float: right;
+  width: 300px;
+  margin: 150px 50px 150px 50px;
+  padding: 10px;
+  font-family: Nunito;
+}
+
+h2, form {
+  text-align: center;
+}
+
+
+h3 {
+  font-family: Nunito;
+  color: #db7dcc
+}
+
+.copyright {
+  text-align: center;
+  font-family: Nunito;
+  margin: 20px 0 20px 0
+}
